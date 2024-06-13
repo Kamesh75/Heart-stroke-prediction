@@ -45,16 +45,6 @@ BACKEND_SERVER =[Server]
 4. Open terminal and go to Cd stroke_heart_prediciton/postgres 
 5. Run Python createdb.py to create the tables & relationships in your database
 
-## Airflow ( Follow the steps in Repo ) :timer_clock:
-[Airflow Repo - README.md](https://github.com/ibrahim-Sobh/heart_stroke_airflow#readme)<br>
-[Link to Airflow](http://34.135.123.223:8080/home)</br>
-## Grafana ( Follow the steps in Repo ) :cyclone:
-[Grafana Repo - README.md](https://github.com/ibrahim-Sobh/heart_stroke_grafana#readme)<br>
-[Link to Grafana](https://grafa-stroke.herokuapp.com/d/LDFHt43nk/feature-monitoring?orgId=1)</br>
-
-## Heroku  Streamlit 
-[Link to Web Interface](http://35.238.16.200:8501/)
-
 ## Execute Program Locally:
 
 1. Cd stroke_heart_prediciton/stroke_api; uvicorn  main:app --host 0.0.0.0 --port 8005;
